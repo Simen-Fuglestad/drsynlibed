@@ -5,23 +5,35 @@ This README is a wip.
 Digital synthesizer engine for embedded and desktop platforms
 
 ### Goals and roadmap:
- * Build a powerful, versatile DSP engine tailored for sound synthesis. Planned features include
-    - [ ] Arbitrary waveform oscillators
-    - [ ] Wavetable generation
-    - [ ] Filtering and EQ
-    - [ ] LFO
+ * Powerful, versatile DSP engine tailored for sound synthesis. Planned features include
+    - [ ] Configurable nubmer of oscillators
+    - [ ] Wavetables
+    - [ ] Virtual Analog Subtractive
+    - [ ] Digital FM
+    - [ ] Additive
+    - [ ] Filtering
+    - [ ] Envelopes/ADSR
+    - [ ] LFOs
+    - [ ] FX templates
+    - [ ] General-purpopse DSP
     
-* Build system for compling and configuring for multiple platforms and architectures
+* Modular Unit Design
+    - [ ] Customizable units that each implement the synthesis engine
+    - [ ] Fully modular interconnection between units
+    - [ ] API for synth engine interaction
+    - [ ] GUI for ease of use
+    - [ ] Terminal application
+    
+* Build system supporitng multiple architectures
     - [ ] ARM
     - [ ] RISC-V
-    - [ ] Linux: x86
-    - [ ] Windows
+    - [ ] x86_64
     
-* Target Selector for specific MCUs, boards, devkits and desktop distros:
-    - [ ] STM32
-    - [ ] ESP32
+* Target Selector for specific MCUs, boards, devkits and desktops:
+    - [ ] ST
+    - [ ] ESP
     - [ ] PIC
     - [ ] Raspberry PI
-    - [ ] Debian/Ubuntu
+    - [ ] Linux
     - [ ] Windows 10
     
